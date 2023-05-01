@@ -3,6 +3,7 @@ const country = document.querySelector("#country");
 const state = document.querySelector("#state");
 const AQI = document.querySelector("#AQI");
 const statement = document.querySelector("#statement");
+const scroll_btn = document.querySelector(".mouse-wrapper");
 
 import { API_KEY } from "./apikey.js";
 
@@ -124,3 +125,15 @@ const links = document.querySelectorAll(".menu-list>ul>*");
 links.forEach((link) =>
   link.addEventListener("click", () => header.classList.remove("active"))
 );
+
+
+// scroll btn
+
+const scroll = () => {
+  window.scrollTo({
+    top: window.innerHeight,
+    behavior: "smooth",
+  });
+};
+
+scroll_btn.addEventListener("click", () => scroll());
