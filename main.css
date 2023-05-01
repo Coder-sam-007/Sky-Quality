@@ -211,6 +211,8 @@ header.active .bar::after {
   display: flex;
   justify-content: center;
   align-items: center;
+  pointer-events: all;
+  cursor: pointer;
 }
 
 .scroll-animation .mouse {
