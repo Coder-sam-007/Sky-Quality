@@ -213,7 +213,7 @@ header.active .bar::after {
   justify-content: center;
   align-items: center;
   /* z-index: 10000; */
-  /* pointer-events: all; */
+   pointer-events: all;
   cursor: pointer;
 }
 
