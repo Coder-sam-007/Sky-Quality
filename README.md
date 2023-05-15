@@ -7,11 +7,11 @@ Sky Quality is a web application that provides users with up-to-date information
 3. Regular updates on air quality data
 
 # Technologies Used
-HTML
-CSS
-JavaScript
-Three.js
-OpenWeatherMap API
+- HTML
+- CSS
+- JavaScript
+- Three.js
+- OpenWeatherMap API
 
 # Installation and Usage
 To use Sky Quality, simply visit our website at https://sky-quality.netlify.app/ No installation required.
