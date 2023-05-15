@@ -16,6 +16,6 @@ Sky Quality is a web application that provides users with up-to-date information
 - OpenWeatherMap API
 
 ## Installation and Usage
-No installation is required.
+No installation is required.<br>
 To use Sky Quality, simply visit our website at https://sky-quality.netlify.app/.
 
